@@ -1,6 +1,8 @@
 # Pop Her Bubble
 
-A game about holding onto friends in a lonely city.
+<img width="479" height="431" alt="image" src="https://github.com/user-attachments/assets/91d66394-34ea-4660-9115-d2e449e6b6a4" />
+
+A game about holding onto friends in a lonely city. [Play on Itch.io](https://cooldotty.itch.io/pop-her-bubble)
 
 ## Thanks 
 
