@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "84097fbd-1225-4ce5-8b0f-7b5399862d25",
+  "name": "",
+  "prefabId": "",
+  "x": 4,
+  "y": 0,
+  "symbol": "trigger_34",
+  "prefabScriptOverrides": {},
+  "width": 12,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "(I should check on\n doors)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c93e4a33-a13c-4eff-9a55-cc644b097565"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "754c5257-d7c3-4039-8232-025b726025c6"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

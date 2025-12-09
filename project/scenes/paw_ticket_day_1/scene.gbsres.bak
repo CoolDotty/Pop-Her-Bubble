@@ -1,0 +1,76 @@
+{
+  "_resourceType": "scene",
+  "id": "47f14c4c-8017-4a2d-a7dd-6ba2c4f36b48",
+  "_index": 8,
+  "name": "Paw Ticket Day 1",
+  "backgroundId": "582f0a0f-95ea-413e-8a7e-50aae6aee29b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 1048,
+  "y": 40,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "2b5b9d03-3be5-40bb-8e30-c937af0951cf"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "\"My ticket for\n this weekend\"",
+          "\"Shoegaze, punk\n and emo...\"",
+          "\"Same songs\n different breed\""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7be90c0f-90ac-497e-8998-9d4632f7ed19"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f6aa7f23-1f14-4712-9a88-84d8b95b11ca",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "191dacf7-cd0e-4856-aede-8f7725395e67"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

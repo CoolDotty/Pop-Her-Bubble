@@ -1,0 +1,69 @@
+{
+  "_resourceType": "scene",
+  "id": "dcc8fc2f-b785-4379-87d5-66279ee59c93",
+  "_index": 33,
+  "name": "Poly Map Day 3",
+  "backgroundId": "cf4e1873-a221-42f1-8cc9-69ad1e01dd95",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_41",
+  "x": 2912,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "(Remember to keep\n the peace)",
+          "(Gwyns is really\n lonely...)\n",
+          "(We're all really\n lonely)",
+          "(But .....\n something doesn't\n feel right)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "52214a4d-10ca-436d-95e6-cdd1af22d263"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9b7e3055-27ee-4a16-ab92-3556da3dac0a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "970d6cbe-0ccd-48ac-8bb0-b34c19258877"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

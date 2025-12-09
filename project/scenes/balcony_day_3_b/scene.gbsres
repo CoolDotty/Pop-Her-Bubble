@@ -1,0 +1,233 @@
+{
+  "_resourceType": "scene",
+  "id": "9b7e3055-27ee-4a16-ab92-3556da3dac0a",
+  "_index": 34,
+  "name": "Balcony Day 3 B",
+  "backgroundId": "4a39b8aa-cac2-4b98-87e2-4b8651abd96a",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001c2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_42",
+  "x": 3112,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "de47e96c-e5df-4742-9936-7c3804aae524",
+        "$actor[0]$": "638918d5-ab5a-480f-a6a1-9553c186a06a",
+        "$actor[1]$": "5646e2b4-da9e-4eaa-bdda-48e68e557681",
+        "__collapse": false
+      },
+      "id": "33ed5ca9-c6f2-49f4-a8c0-f65c80f992e1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "4bf23763-4553-4e2d-9c1f-751e5a6ed561"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "5646e2b4-da9e-4eaa-bdda-48e68e557681",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "__collapse": false
+      },
+      "id": "081ee8a5-bd52-4a7e-9492-dcd48f9db2e0"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0658d80a-9b8a-475b-afc8-321ea7695bc8",
+        "__collapse": true
+      },
+      "id": "cf95367d-705b-4607-88b4-264b7584c931"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "080a8670-dc0d-4e47-9a5d-558126fc3cea"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "\"You look off\"",
+                "\"Something on your\n mind?\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e1146188-d9ca-40b9-a27d-bc68d91b8e88"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "\"Well-\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "833ffcf5-0b4c-4429-ba88-7e3042da641e"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L3",
+              "items": 2,
+              "option1": "Lose a friend",
+              "option2": "Keep the peace",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue"
+            },
+            "id": "9db174fd-81b0-4483-8c05-fedee0fe0ee3"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L3"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "d50bdc09-44d3-460a-98aa-94a2b8b52013",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "01967a76-881b-4bbc-9bd4-e0cde2405d7b"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "ce2ee235-99cf-41df-8af7-820e8722d1e5",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "1f40159c-70ec-484a-ba48-99ccc1a45c89"
+                }
+              ]
+            },
+            "id": "4f6727d8-c11e-456e-a104-b07578819082"
+          }
+        ]
+      },
+      "id": "1675881d-9610-4085-b45f-7e540d212da7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

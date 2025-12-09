@@ -1,0 +1,72 @@
+{
+  "_resourceType": "scene",
+  "id": "32e21d86-ca1c-4595-b2ea-f96cdf54d059",
+  "_index": 0,
+  "name": "Bedroom Day 1",
+  "backgroundId": "d0990434-db4d-4e28-8976-d078a94faa70",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    "default-bg-3"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 672,
+  "y": 40,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "(Am I happy or \n am I stuck?)",
+          "(I have a\n community)",
+          "(Don't I?)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "2ae7bdb5-ad35-4e0d-b63f-7184e22dde2b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b658ee2e-a00b-431c-ad3a-c9a5d0a55e87",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "cf92af35-d961-4a0e-9b59-ff1d00b551b3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

@@ -1,0 +1,320 @@
+{
+  "_resourceType": "scene",
+  "id": "7442a49a-200f-450f-a85f-d3450d601b22",
+  "_index": 21,
+  "name": "Stage Day 2",
+  "backgroundId": "b08057e6-bbd1-4f15-b63d-4d72cc68c13c",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 1640,
+  "y": 224,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "de47e96c-e5df-4742-9936-7c3804aae524",
+        "$actor[0]$": "8b985488-0783-48f9-b05e-76489c426658",
+        "$actor[1]$": "e930577c-c6dc-4ed1-8e27-1dac64a0386b",
+        "__collapse": true
+      },
+      "id": "4ba19690-c01e-493d-89f5-a915058f27da"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0658d80a-9b8a-475b-afc8-321ea7695bc8",
+        "$actor[0]$": "8b985488-0783-48f9-b05e-76489c426658"
+      },
+      "id": "0dd068b0-9489-417b-85c7-5396e7d023a6"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "b468eab7-ec7c-455a-ac41-628ee973aca7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "<A familiar entity\n emerges>",
+                "(I recognize that\n rat's nest of a\n bobcut anywhere)",
+                "<She's covered in\n bruises and dirt>",
+                "<presumably from\n moshing>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "49cc6102-96b5-446a-b928-46e058cd76f6"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "8de517d6-d1d8-4d53-b121-10f7a9bdc6fc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "\"Figured you'd be\n up late\"",
+                "\"trouble sleeping\n again?\"",
+                "\"Probably from\n playing railroad\n sims again eh?\"",
+                "\"Which one was it.\n Sid Meower's\n railroads?\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "83436e22-8f9a-4814-b1dd-3576d6e19e51"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "(Clio, 27yr,\n part time punk)",
+                "(and part time\n bartender here)",
+                "<You catch up on \n college...>",
+                "<life and\n work drama>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f4f63dc6-ed1a-45b5-b173-4e170dbb8024"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "\"I'm glad you\n could make it\"",
+                "\"A friendly face\n like yours is \n always welcome\"",
+                "\"Remember, we're\n always looking\n out for eachother",
+                "<Clio stretches\n her arms>",
+                "\"Its a\n busy season\"",
+                "\"for shows this\n month\"",
+                "\"Schools out after\n all\"",
+                "\"With that\n said...\"",
+                "\"Great catching up\n with you!\"",
+                "\"I'm gonna catch\n this next set\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "1b150e5d-2f8e-46f2-94ad-1185dde8fb74"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "84599c0e-87d7-479a-92ab-a4a3faeb359c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "<Clio says goodbye\n and fades into\n the crowd>",
+                "<Probably, rock\n and ear pro is\n deafening>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "89181435-f64d-409e-965a-14ac58617379"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "7aff44e0-d8d2-4c50-8ee0-dcbab9cc4645"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ef215c73-35d7-4525-ab94-73459c5a4b15",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "41677628-c710-4c28-b262-2fe4f92c6b49"
+          }
+        ]
+      },
+      "id": "93216c08-d347-4c19-8610-daeb42013147"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

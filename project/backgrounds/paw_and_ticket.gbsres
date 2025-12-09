@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "582f0a0f-95ea-413e-8a7e-50aae6aee29b",
+  "name": "Paw and ticket",
+  "symbol": "bg_paw_and_ticket",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Paw and ticket.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "6c5a5db4-cde0-4707-be6f-1aa1426e0595",
+  "_index": 2,
+  "name": "Entrance",
+  "backgroundId": "f80fffbf-3969-4f10-bd9b-1cc5913d2b99",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 552,
+  "y": 552,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

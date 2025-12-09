@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d993db7c-96ca-4c61-a932-f30285784dd7",
+  "name": "Text messege day 2",
+  "symbol": "bg_text_messege_day_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Text messege day 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

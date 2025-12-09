@@ -1,0 +1,71 @@
+{
+  "_resourceType": "scene",
+  "id": "57d90d0b-497d-4b38-aa7c-98e17305bca5",
+  "_index": 26,
+  "name": "Lobby Day 3 A",
+  "backgroundId": "bfae0400-7850-420e-969d-b270affe0038",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "001c2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_34",
+  "x": 1448,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "<You hand over\n your ticket>",
+          "<The air reeks of\n catnip and booze>\n",
+          "(Time to\n cut loose)\n"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "23018195-b7b6-4276-bf5e-574d58af1b1c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3f363ff6-e442-4807-84f7-dd0163607797",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d939b0d6-90d3-4a82-9fcc-fab77cf6df7a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "8a2529db-6292-4cff-9af5-9487c894649f",
+  "name": "",
+  "prefabId": "",
+  "x": 4,
+  "y": 0,
+  "symbol": "trigger_30",
+  "prefabScriptOverrides": {},
+  "width": 12,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "(I can barely see\n the DJ now)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b5028047-7e39-496d-9863-b5c6d997b0d9"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "2d7e56c6-0107-4aee-89dd-a371d6bf574f"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

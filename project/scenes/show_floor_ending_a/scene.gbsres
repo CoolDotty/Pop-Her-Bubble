@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "e971857b-3539-4e33-b294-4d46a417a163",
+  "_index": 39,
+  "name": "Show Floor Ending A",
+  "backgroundId": "72f7bccf-fbdd-466e-8685-1acc109864fd",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2+0011+0f!00!0f!0011+0f!00!0f2+00f+0f2+003+0f!00d+0f2+004+0f!00c+0f2+005+0f!00c+0f!00f3+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 888,
+  "y": 592,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "b90c33ed-c1db-4840-93ad-3119dd4dbbd1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71c8b341-a891-4e7d-bbb4-7a1aa9ab3919"
+}

@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "4bedf9af-80d6-4d10-b2dc-3a426dd49930",
+  "_index": 6,
+  "name": "Show Floor Day 2 A",
+  "backgroundId": "72f7bccf-fbdd-466e-8685-1acc109864fd",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2+0011+0f!00!0f!0011+0f!00!0f2+00f+0f2+003+0f!00d+0f2+004+0f!00c+0f2+005+0f!00c+0f!00f3+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 1056,
+  "y": 224,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "cdbfe622-c45b-4799-a45d-a7c598839af7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71c8b341-a891-4e7d-bbb4-7a1aa9ab3919"
+}

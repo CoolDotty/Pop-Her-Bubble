@@ -1,0 +1,42 @@
+{
+  "_resourceType": "script",
+  "id": "0658d80a-9b8a-475b-afc8-321ea7695bc8",
+  "name": "Set Actor Chill Guy",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "2d1cb899-5c77-4650-a9fe-6b1a5e884ea3"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "0",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "87735783-d0f4-4864-9a47-164799a83e31"
+    }
+  ]
+}

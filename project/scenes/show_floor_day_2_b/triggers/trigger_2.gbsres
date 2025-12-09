@@ -1,0 +1,59 @@
+{
+  "_resourceType": "trigger",
+  "id": "34dce7d4-3d65-4cbf-aa47-edf8f14baec4",
+  "name": "",
+  "prefabId": "",
+  "x": 19,
+  "y": 6,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "(My paws feel\n rested I'm\n purring to go)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b4c03e0e-f099-4e9e-b95b-ccdcbadd7ac3"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": -1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "4d242ec1-9ff0-4d80-abf1-bcb6fb676277"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

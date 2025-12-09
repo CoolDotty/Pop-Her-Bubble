@@ -1,0 +1,28 @@
+{
+  "_resourceType": "script",
+  "id": "bfcd4c3c-f62d-41d9-b001-1fd8797f5207",
+  "name": "Hide Actor Right",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        },
+        "moveType": "diagonal",
+        "useCollisions": false
+      },
+      "id": "b1b3fafb-6d4a-43b2-8eab-e0c5048f37d3"
+    }
+  ]
+}

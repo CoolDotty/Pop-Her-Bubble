@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "a4f16c2e-83c4-4051-9dd7-6b164780386d",
+  "_index": 12,
+  "name": "Stage",
+  "backgroundId": "b08057e6-bbd1-4f15-b63d-4d72cc68c13c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_0",
+  "x": 88,
+  "y": 944,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,71 @@
+{
+  "_resourceType": "scene",
+  "id": "5c275bde-a6a5-4ba8-a83c-2787ccb62ef3",
+  "_index": 48,
+  "name": "Bedroom Ending B",
+  "backgroundId": "d0990434-db4d-4e28-8976-d078a94faa70",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_49",
+  "x": 1488,
+  "y": 792,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "<You feel immense\n guilt>",
+          "\"Did I do the\n right thing?\"",
+          "\"They're both\n adults, right?\"",
+          "<you wish you\n could've done\n more>"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f78988d2-a78d-4ed9-9156-0d419d436a6c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c0dcecf8-dafa-426a-a410-85197aa06827",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "069c2c17-2966-4c1b-8381-d73ec64c9a80"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

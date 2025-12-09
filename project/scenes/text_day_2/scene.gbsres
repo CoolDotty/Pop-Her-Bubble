@@ -1,0 +1,51 @@
+{
+  "_resourceType": "scene",
+  "id": "cb1185cb-2c8e-475b-bdbf-45f22d8b7b0d",
+  "_index": 8,
+  "name": "Text Day 2",
+  "backgroundId": "d993db7c-96ca-4c61-a932-f30285784dd7",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 480,
+  "y": 224,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30
+      },
+      "id": "96073a7b-2de0-427b-93e9-2359d228eb0e"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7682e61e-9db5-4fff-95a5-68ae1b86c79f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "1483c5ae-a921-4e96-81eb-22ee9d26e53e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

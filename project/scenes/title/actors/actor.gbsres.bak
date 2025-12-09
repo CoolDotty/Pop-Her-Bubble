@@ -1,0 +1,106 @@
+{
+  "_resourceType": "actor",
+  "id": "cf012aaf-6b9e-4d59-bb2e-305eedaa912e",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "77f6b698-573a-4bb2-9645-e48c5945d44f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "407954e2-788e-49b1-a577-2fbc1339c9da"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "7e6f2b01-ed5e-4326-96cb-fb3cae80a55b"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "flicker",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 2,
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "717e5f62-3dac-43a5-a9c2-265f5f359a5d"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30
+            },
+            "id": "399300bb-190d-43d1-b97b-18e61df716dc"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "baa5eab9-42b0-4961-b0d4-6d195f666d32",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "7ba582a7-082b-402d-b618-af23297d92e9"
+          }
+        ],
+        "false": []
+      },
+      "id": "d3ec5e16-d135-4088-a729-4cc9ea64a5c8"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 17,
+  "_index": 0
+}

@@ -1,0 +1,42 @@
+{
+  "_resourceType": "script",
+  "id": "34cd6921-809a-444d-a153-f2396953003d",
+  "name": "Set Actor Weirdo",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "c6c9c49e-1fb9-42e3-9f61-e1a46d45bee7"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "0",
+        "spriteStateId": "weirdo",
+        "loopAnim": true
+      },
+      "id": "31d292d8-dd59-4aa0-984c-6107b330340e"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "36edea29-f36c-48f9-8f47-c86db0e14447",
+  "name": "hallway right",
+  "symbol": "bg_hallway_right",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "hallway right.png",
+  "tileColors": "",
+  "autoColor": false
+}

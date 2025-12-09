@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b08057e6-bbd1-4f15-b63d-4d72cc68c13c",
+  "name": "stage",
+  "symbol": "bg_stage",
+  "width": 25,
+  "height": 18,
+  "imageWidth": 200,
+  "imageHeight": 144,
+  "filename": "stage.png",
+  "tileColors": "",
+  "autoColor": false
+}

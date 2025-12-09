@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "72f7bccf-fbdd-466e-8685-1acc109864fd",
+  "name": "Venue Stage with 3 paths",
+  "symbol": "bg_venue_stage_with_3_paths",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Venue Stage with 3 paths.png",
+  "tileColors": "",
+  "autoColor": false
+}

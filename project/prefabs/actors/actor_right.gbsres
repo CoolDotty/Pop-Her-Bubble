@@ -1,0 +1,27 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "6c4df500-38a1-40a1-bf95-1c2a8d123a7b",
+  "name": "Actor Right",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "38a3725f-e19f-4bc0-9ce6-cd398f457f17",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": true,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "436da26d-5825-410f-b59e-b6f294416cee"
+      },
+      "id": "5f99547c-fcbc-4cbe-93da-e48ea7a2cc02"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

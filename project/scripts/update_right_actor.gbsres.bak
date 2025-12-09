@@ -1,0 +1,158 @@
+{
+  "_resourceType": "script",
+  "id": "436da26d-5825-410f-b59e-b6f294416cee",
+  "name": "Update Right Actor",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "1",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Lurk Actor",
+              "__collapse": true
+            },
+            "id": "6a08aa80-6f42-4966-a4be-bdff20541877"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "8306289b-739c-42bf-b835-b7d8340b5a6f"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Focus Actor",
+              "__collapse": true
+            },
+            "id": "9139ce9f-40ef-4ed7-a58c-fbe50be45b05"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "ac5e29f8-5d58-4130-b186-9f73ffc23229"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Hide Actor",
+              "__collapse": true
+            },
+            "id": "00b718dc-f32e-41db-bdae-ff8f08a667e9"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 27
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "a9abd07e-536d-4928-b300-2aecd6190ed8"
+          }
+        ]
+      },
+      "id": "ab88acb5-75b3-4c9d-9083-2b627b1dc954"
+    }
+  ]
+}

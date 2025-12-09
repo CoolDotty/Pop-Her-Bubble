@@ -1,0 +1,54 @@
+{
+  "_resourceType": "script",
+  "id": "30e22cdf-1be4-473f-8fc0-3474684bb51e",
+  "name": "Actor B Talking",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor B"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "ff6a897b-3314-438c-832d-1a546c3fab51"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "1",
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "d541069c-13d0-4b80-9feb-afa76ea3d4d6"
+    }
+  ]
+}

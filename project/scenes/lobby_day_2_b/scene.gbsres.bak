@@ -1,0 +1,131 @@
+{
+  "_resourceType": "scene",
+  "id": "a1d60f13-2ee8-4f01-b5ec-1a88850f9c48",
+  "_index": 26,
+  "name": "Lobby Day 2 B",
+  "backgroundId": "bfae0400-7850-420e-969d-b270affe0038",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001c2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_27",
+  "x": 2688,
+  "y": 224,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "de47e96c-e5df-4742-9936-7c3804aae524",
+        "$actor[0]$": "72f3ba08-9959-4fb6-8240-7c944fa904c1",
+        "$actor[1]$": "e53c5304-74e2-497a-a910-b5176f5fb5eb",
+        "__collapse": true
+      },
+      "id": "934a5827-c656-4d9c-b133-0e00fcc3bc11"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "34cd6921-809a-444d-a153-f2396953003d",
+        "$actor[0]$": "72f3ba08-9959-4fb6-8240-7c944fa904c1",
+        "__collapse": true
+      },
+      "id": "1c7adbe6-a965-44c8-a3e4-b004a5594f48"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0658d80a-9b8a-475b-afc8-321ea7695bc8",
+        "$actor[0]$": "e53c5304-74e2-497a-a910-b5176f5fb5eb",
+        "__collapse": true
+      },
+      "id": "ecf1f8d3-cba1-4af6-92fd-7e09ba94c8f4"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "3ed09e70-6d3d-4a74-8007-4d2961011857"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "<You wave goodbye\n to Clio and Gwyn>",
+                "<You wonder where\n Alia went off to>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "96693f3c-c0ce-4619-a924-7f1cc0afaf1a"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9ddcbc22-3110-4675-a1fd-a998db2f90a4",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "2dc0da79-0386-4a4d-be75-fc1fafb02078"
+          }
+        ]
+      },
+      "id": "a32a8065-1401-447c-b49c-dd8836472e59"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71c8b341-a891-4e7d-bbb4-7a1aa9ab3919"
+}

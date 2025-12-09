@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "47f14c4c-8017-4a2d-a7dd-6ba2c4f36b48",
+  "_index": 9,
+  "name": "Paw Ticket",
+  "backgroundId": "582f0a0f-95ea-413e-8a7e-50aae6aee29b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 848,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

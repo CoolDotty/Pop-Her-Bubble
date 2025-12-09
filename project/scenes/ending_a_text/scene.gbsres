@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "3b45ac31-bcae-4ec4-b490-bdc9d47ac66c",
+  "_index": 44,
+  "name": "Ending A Text",
+  "backgroundId": "a645bf0a-3b2a-44a7-94b8-a6b4946cf9f8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_45",
+  "x": 1912,
+  "y": 592,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

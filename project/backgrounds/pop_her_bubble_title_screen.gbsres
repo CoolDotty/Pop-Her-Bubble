@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b6d10498-6caa-4573-a0a5-b40007e23318",
+  "name": "Pop her bubble title screen",
+  "symbol": "bg_pop_her_bubble_title_scr",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Pop her bubble title screen.png",
+  "tileColors": "",
+  "autoColor": false
+}

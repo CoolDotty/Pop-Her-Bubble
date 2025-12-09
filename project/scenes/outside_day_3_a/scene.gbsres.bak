@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "13fd8f79-45c8-4332-befd-f498563fe2b4",
+  "_index": 25,
+  "name": "Outside Day 3 A",
+  "backgroundId": "77ca8f5e-42e2-4c1c-b59a-8a7725661e25",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00aa+0f4+0010+0f!002+0f!006+0fb+002+0f7+008c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_33",
+  "x": 1240,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "e76e7249-e168-40e8-a7ab-1e1e93576652"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "(Here we are)",
+          "(Nothing more punk\n than being broke\n on Friday night)"
+        ],
+        "__section": "presets",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "cc1bf71d-b798-409a-b9df-64269d9803e1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71c8b341-a891-4e7d-bbb4-7a1aa9ab3919"
+}

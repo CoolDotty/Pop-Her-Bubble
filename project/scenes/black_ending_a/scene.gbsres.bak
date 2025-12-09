@@ -1,0 +1,65 @@
+{
+  "_resourceType": "scene",
+  "id": "d50bdc09-44d3-460a-98aa-94a2b8b52013",
+  "_index": 37,
+  "name": "Black Ending A",
+  "backgroundId": "5fc820b5-da5d-4b50-8722-82a1c34d3b92",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00b1+0f!00b6+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_0",
+  "x": 472,
+  "y": 592,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "<You tell her\n about Alia>"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "35be42f3-bde2-4fe5-9721-49655ae7e589"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "14d67e9f-5a89-4e3c-8437-6234f3e5ec66",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d05134b3-e2f4-48d7-b133-2aab57756f14"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "ccc40556-ca7b-4216-88f1-85ec210fb946",
+  "name": "",
+  "prefabId": "",
+  "x": 1,
+  "y": 6,
+  "symbol": "trigger_26",
+  "prefabScriptOverrides": {},
+  "width": 18,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L4"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "<There's something\n on the floor>",
+                "(Who's wallet is\n this?)",
+                "<Peeking inside,\n you find an ID>",
+                " Alia Jane Burch\n Age: ....XX...."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "9b95dcc1-f9e2-416b-b879-6c3007c1f2d2"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L4",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "3339c905-6329-4efe-956b-596ca39172b6"
+          }
+        ],
+        "false": []
+      },
+      "id": "4650ebcc-ce41-4347-8f3b-8b0086c87d6f"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

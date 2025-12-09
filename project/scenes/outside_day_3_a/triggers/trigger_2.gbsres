@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "b0b51ebd-04cd-4f13-9146-ac45de5af331",
+  "name": "",
+  "prefabId": "",
+  "x": 19,
+  "y": 11,
+  "symbol": "trigger_37",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 7,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "(Oops, wrong way)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": -1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "d5b22f76-3773-456d-b42d-b9468849e18b"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": -1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "3e239fec-cf59-4b88-a696-46d48f880415"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

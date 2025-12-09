@@ -1,0 +1,242 @@
+{
+  "_resourceType": "scene",
+  "id": "f0809e4f-f429-4f23-937d-25980f7e24fd",
+  "_index": 46,
+  "name": "Stage Ending B",
+  "backgroundId": "b08057e6-bbd1-4f15-b63d-4d72cc68c13c",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_47",
+  "x": 1072,
+  "y": 792,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "de47e96c-e5df-4742-9936-7c3804aae524",
+        "$actor[0]$": "8b985488-0783-48f9-b05e-76489c426658",
+        "$actor[1]$": "e930577c-c6dc-4ed1-8e27-1dac64a0386b",
+        "__collapse": true
+      },
+      "id": "47bcf114-616d-45d7-9b4e-976ed90a257c"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "8efdfddc-6632-4b6d-b425-d9e83f0ec2e2",
+        "$actor[0]$": "efe5738e-7ad2-4c11-9ae0-6b8024e176fd",
+        "__collapse": true
+      },
+      "id": "dc2e9570-a7bd-46e7-9b35-ff5699275ed8"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "34cd6921-809a-444d-a153-f2396953003d",
+        "$actor[0]$": "29f8952b-2303-4757-8062-c1a5494e7d15",
+        "__collapse": true
+      },
+      "id": "c4f1d344-0993-41bb-b1b7-c6ebaca60a53"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "0339340a-0eb5-4284-ac40-00c00c17e07e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "Gwyn: \"Were gonna\n head out\"",
+                "\"She's feeling\n pretty tired\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "76e82495-3a0b-4abd-9ab9-442a2dd03e7a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "\"2rd DJ isn't even\nhere yet, why now?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "002bedaf-bf8e-4a4e-a355-c2466367bd2c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Gwyn: Its just one\nof those nights\"",
+                "\"Right Alia?\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "114bf229-5824-408f-97be-b7d2f1a4e18f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "(She's not even\n looking at her)",
+                "<you try to pull\n her to talk in\n private>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "74352af3-4588-4923-8016-8c6794a1aa56"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Gwyn: \"I said\n we're GOING HOME\"",
+                "<Gwyn wraps her\n arm around Alias>",
+                "Alia: Ish ok shell\n b my caretaker\"",
+                "Gwyn: \"Sorry to\npop your bubble\"",
+                "\"But she's mine.\"",
+                "<They leave in a \nhurry, giggling>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5ead3496-8d39-4123-96e4-59f2218d25ac"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "fa6300db-0487-4c83-a2fc-c42ed878d3c9",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "70613863-6ee7-43ca-8181-976e993ff7f7"
+          }
+        ]
+      },
+      "id": "4c95663a-830a-46ca-a168-b0f678454d95"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

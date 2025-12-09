@@ -1,0 +1,320 @@
+{
+  "_resourceType": "scene",
+  "id": "73f62725-6109-435f-9f45-92c8b8c8f35a",
+  "_index": 12,
+  "name": "Couch Day 2",
+  "backgroundId": "d63f0d77-9180-4d0e-8903-3692147f54ca",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [
+    ""
+  ],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_20",
+  "labelColor": "",
+  "x": 1240,
+  "y": 224,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "de47e96c-e5df-4742-9936-7c3804aae524",
+        "__collapse": false,
+        "$actor[0]$": "0f39f0e2-4405-4a97-8940-0f88709d8344",
+        "$actor[1]$": "64e2edd2-9057-4094-b429-77ae79a4707f"
+      },
+      "id": "caa33ea4-b562-4d73-82e5-dc792674df40"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "8efdfddc-6632-4b6d-b425-d9e83f0ec2e2",
+        "$actor[0]$": "64e2edd2-9057-4094-b429-77ae79a4707f",
+        "__collapse": false
+      },
+      "id": "56479952-66ed-4c2f-928e-20eb90001e0b"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 1
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "714cb9f0-0dfa-4027-9bf6-e84801f26df0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "<A cute looking\n cat sits on\n the sofa>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "af13cfcd-aedf-4da5-9413-c2cb363f8e14"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "8c9a1b1a-d3f9-41ed-90cf-50e6d9600e62"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "\"H-hi;\n my names Alia\"",
+                "\"I'm new here\"",
+                "\"I heard this was\n THE place\"",
+                "\"For outcats like\n me\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "627328da-ca1b-48c5-aeec-58257dafe5b4"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "(Is she here\n alone?)",
+                "<You make small\n talk about bands>",
+                "\"It's the same 12\n angsty bands\"",
+                "\"Mid-20s strays,\n gets numbing\n after a while\"",
+                "(You remember you \n have two friends\n to meet)",
+                "\"I hope you find\n your place here\"",
+                "\"Just make sure to\n look out for\n yourself\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "1d21fea8-7a3d-4679-92a5-4d2bcea984b0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "<Alia waves\n goodbye>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f38a5fde-6cfd-4ab3-af1a-0191aca81067"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 1
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "1849ba75-af0e-4a54-8547-9fd1328ab3fb"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "<Her smile is\n wide>",
+                "\"See you around!\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "ab913827-3148-4eae-aa19-609f589e9b89"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "b9165207-a4d9-44b8-bea4-ae05f12456a2"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "94c18e17-d74f-4c6e-9123-832605227800",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "d993be8a-8850-4d43-9bc6-639a86b63948"
+          }
+        ]
+      },
+      "id": "b870435a-0d7c-4baa-9d22-94a3a86704db"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,236 @@
+{
+  "_resourceType": "scene",
+  "id": "ff346404-4fad-4da6-b74a-8ab3a2a0546e",
+  "_index": 29,
+  "name": "Fire Exit Day 3",
+  "backgroundId": "f80fffbf-3969-4f10-bd9b-1cc5913d2b99",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_37",
+  "x": 2088,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "8efdfddc-6632-4b6d-b425-d9e83f0ec2e2",
+        "$actor[0]$": "4794ea4e-1eaf-4085-9521-58ffbeb12246",
+        "__collapse": true
+      },
+      "id": "05230f62-99ed-49c9-96b6-8c28d9eb3503"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "34cd6921-809a-444d-a153-f2396953003d",
+        "$actor[0]$": "1dabd886-bb54-40c0-a554-94f250420507",
+        "__collapse": true
+      },
+      "id": "d18f12df-847c-4856-aa60-3d70339771e5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "de47e96c-e5df-4742-9936-7c3804aae524",
+        "$actor[0]$": "4794ea4e-1eaf-4085-9521-58ffbeb12246",
+        "$actor[1]$": "1dabd886-bb54-40c0-a554-94f250420507",
+        "__collapse": true
+      },
+      "id": "de32c188-3017-4519-bb33-ea98f16965b4"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 2
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "9a9d8b0e-76c1-414f-87db-16557f44d10c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "\"You two look like\n shit\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "728505d8-fc34-46da-96ad-37c669942538"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Gwyn: \"You\nshould've seen her",
+                "after two nips\"",
+                "\"Want one?\"",
+                "<Gwyn extends her\n paw>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a9903075-f32c-421a-84ee-e6686822c67a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "\"You gave her one?",
+                "\"Is she even\n old enoug-\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6ad71038-cde2-42e1-9d3e-ac6afae86b4b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Gwyn: \"Don't be\n such a puritan!\"",
+                "\"This is a safe\n space isn't it?\"",
+                "C'mon ****, lets\n go, the next set\n is starting\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "32987998-deb9-44e5-bc5e-8694b28d6240"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "cbc651b6-2374-4932-ad36-50ebfa810e00"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e858ea96-e729-45f7-9198-116d9e2f6a3c",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "4189e836-b604-4694-ac94-32d8406e5ec3"
+          }
+        ]
+      },
+      "id": "892e9816-8a61-435d-9c55-7ae157747117"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

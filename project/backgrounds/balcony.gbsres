@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4a39b8aa-cac2-4b98-87e2-4b8651abd96a",
+  "name": "balcony",
+  "symbol": "bg_balcony",
+  "width": 25,
+  "height": 18,
+  "imageWidth": 200,
+  "imageHeight": 144,
+  "filename": "balcony.png",
+  "tileColors": "",
+  "autoColor": false
+}

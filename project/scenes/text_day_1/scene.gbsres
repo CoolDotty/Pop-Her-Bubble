@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "89e40544-b950-4959-a0d8-804bf84fb648",
+  "_index": 7,
+  "name": "Text Day 1",
+  "backgroundId": "bd36942f-acb2-404f-9a36-f4f6df2f6a87",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 480,
+  "y": 40,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30
+      },
+      "id": "71cb54c1-9ba1-4614-9809-63d98fbf88f6"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "32e21d86-ca1c-4595-b2ea-f96cdf54d059",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "9eff5c50-b3f8-4e9f-93bc-44b6b562e131"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff",
+  "autoFadeEventCollapse": false
+}

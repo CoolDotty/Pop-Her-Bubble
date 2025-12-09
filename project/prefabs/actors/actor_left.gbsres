@@ -1,0 +1,28 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "b6d2ec45-e776-4684-9415-508c83c53adf",
+  "name": "Actor Left",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "38a3725f-e19f-4bc0-9ce6-cd398f457f17",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": true,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "c9e5ab44-7b19-434f-b283-a349ec1a917f",
+        "__collapse": false
+      },
+      "id": "4b3f0b63-eefb-4d1e-bc6c-d03419a62ced"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

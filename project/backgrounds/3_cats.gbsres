@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "cf4e1873-a221-42f1-8cc9-69ad1e01dd95",
+  "name": "3 cats",
+  "symbol": "bg_3_cats",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "3 cats.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c4a9d1b0-64e0-4643-a4de-7cb8765cf77b",
+  "name": "hate",
+  "symbol": "bg_hate",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "hate.png",
+  "tileColors": "",
+  "autoColor": false
+}

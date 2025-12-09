@@ -1,0 +1,34 @@
+{
+  "_resourceType": "scene",
+  "id": "9ddcbc22-3110-4675-a1fd-a998db2f90a4",
+  "_index": 20,
+  "name": "Outside Day 2 B",
+  "backgroundId": "77ca8f5e-42e2-4c1c-b59a-8a7725661e25",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00be+0f4+0010+0f!002+0f!006+0fb+002+0f7+0078+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_28",
+  "x": 2912,
+  "y": 224,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "69f7e239-4f79-4682-a63d-34e50ecea88e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71c8b341-a891-4e7d-bbb4-7a1aa9ab3919"
+}

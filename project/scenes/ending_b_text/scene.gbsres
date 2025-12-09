@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "c0dcecf8-dafa-426a-a410-85197aa06827",
+  "_index": 49,
+  "name": "Ending B Text",
+  "backgroundId": "c7ea3ca2-7f52-48dc-99b5-b8bc113d5fec",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_50",
+  "x": 1680,
+  "y": 792,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5fbf929a-f025-4abd-8a1d-8fb42e59338e",
+  "name": "Hallway left",
+  "symbol": "bg_hallway_left",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Hallway left.png",
+  "tileColors": ""
+}

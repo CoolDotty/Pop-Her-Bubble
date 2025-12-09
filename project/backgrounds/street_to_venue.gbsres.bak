@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "77ca8f5e-42e2-4c1c-b59a-8a7725661e25",
+  "name": "Street to venue",
+  "symbol": "bg_street_to_venue",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Street to venue.png",
+  "tileColors": ""
+}

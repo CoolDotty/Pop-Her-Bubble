@@ -1,0 +1,207 @@
+{
+  "_resourceType": "scene",
+  "id": "14d67e9f-5a89-4e3c-8437-6234f3e5ec66",
+  "_index": 35,
+  "name": "Balcony Ending A",
+  "backgroundId": "4a39b8aa-cac2-4b98-87e2-4b8651abd96a",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00155+0f!006c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_43",
+  "x": 648,
+  "y": 592,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "de47e96c-e5df-4742-9936-7c3804aae524",
+        "$actor[0]$": "7b815343-70cc-488f-8bac-0915696818ac",
+        "$actor[1]$": "88aab2de-3672-4856-8393-c3d27611455f",
+        "__collapse": false
+      },
+      "id": "a7607464-cd49-45c2-8056-a53808ea23b7"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "88aab2de-3672-4856-8393-c3d27611455f"
+      },
+      "id": "d2247b8f-7804-4c54-a0e5-747c1a3aa7b4"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": false
+      },
+      "id": "ffcd40f7-2890-4e73-a1e6-62ea70c3f23a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0658d80a-9b8a-475b-afc8-321ea7695bc8",
+        "__collapse": false,
+        "$actor[0]$": "7b815343-70cc-488f-8bac-0915696818ac"
+      },
+      "id": "a347a0c7-5084-47c4-b78c-42e9ed0ddb4b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "7b815343-70cc-488f-8bac-0915696818ac",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "__collapse": false
+      },
+      "id": "dee0b32d-86df-4da5-9a69-e298b7d0d208"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "\"Adult or not\n that's not right\"",
+                "\"Can you ask doors\n to check her ID?\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "48b92d6e-4391-48a7-be40-540afb2d1a2b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+              "text": [
+                "\"She also dropped\n her wallet\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c865794b-323e-40ce-8c71-87af6749b435"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "\"Give me a moment\"",
+                "<She puts out her\n cig and leaves>"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0cd58075-85f1-490f-a6ae-f6926b7096ec"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2f3b8fbd-0285-486c-8251-ffa07dcf6381",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "f94c1a39-0130-438a-9c73-64c2a88f6580"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e971857b-3539-4e33-b294-4d46a417a163",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "65d918c7-97a8-4e45-af05-89ae5cbd8df0"
+          }
+        ]
+      },
+      "id": "a9248c86-bf32-4230-8e5b-65c4d9f9c7d6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

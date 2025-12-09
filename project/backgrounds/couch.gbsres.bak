@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d63f0d77-9180-4d0e-8903-3692147f54ca",
+  "name": "couch",
+  "symbol": "bg_couch",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "couch.png",
+  "tileColors": "",
+  "autoColor": false
+}

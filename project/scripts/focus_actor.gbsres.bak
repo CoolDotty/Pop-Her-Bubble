@@ -1,0 +1,28 @@
+{
+  "_resourceType": "script",
+  "id": "b63772ab-85d7-40f8-97b2-3376c3024e12",
+  "name": "Focus Actor",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_0",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "moveType": "diagonal",
+        "useCollisions": false
+      },
+      "id": "f1eaccc4-24f0-4457-9dfe-e09f9a7bff87"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "c0091208-21fa-4a76-b88f-b46baf67a5ce",
+  "_index": 1,
+  "name": "Balcony",
+  "backgroundId": "4a39b8aa-cac2-4b98-87e2-4b8651abd96a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 296,
+  "y": 912,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

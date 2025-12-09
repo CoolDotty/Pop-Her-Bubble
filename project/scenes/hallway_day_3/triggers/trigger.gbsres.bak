@@ -1,0 +1,44 @@
+{
+  "_resourceType": "trigger",
+  "id": "8bc29fa2-ecc2-49bf-b317-252f21bd18b8",
+  "name": "",
+  "prefabId": "",
+  "x": 7,
+  "y": 6,
+  "symbol": "trigger_20",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "C4C noise rave 18+\n    March xx\nOnly @ Blue Drive!",
+          "\"These raves are\n always packed to\n the brim\"",
+          "\"I feel for the\n understaffed team"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd"
+      },
+      "id": "d021a862-8466-4a9f-af74-76de8b60f476"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

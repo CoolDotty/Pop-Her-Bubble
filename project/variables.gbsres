@@ -1,0 +1,15 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Actor Position Left",
+      "symbol": "var_actor_position_left"
+    },
+    {
+      "id": "1",
+      "name": "Actor Position Right",
+      "symbol": "var_actor_position_right"
+    }
+  ]
+}

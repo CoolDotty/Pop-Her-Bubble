@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "553cf6bb-9ab5-42ab-b477-6d0c38d9708c",
+  "_index": 3,
+  "name": "Wall",
+  "backgroundId": "c4a9d1b0-64e0-4643-a4de-7cb8765cf77b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 768,
+  "y": 352,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

@@ -1,0 +1,125 @@
+{
+  "_resourceType": "script",
+  "id": "de47e96c-e5df-4742-9936-7c3804aae524",
+  "name": "Init Dialogue Scene",
+  "description": "Sets everyone to not talking and disable player",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor Left"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor Right"
+    }
+  },
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "player",
+        "__collapse": true
+      },
+      "id": "86799d86-bfac-4099-9b63-639da6f2aeda"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player",
+        "__collapse": true
+      },
+      "id": "d25773d4-22a5-4e85-97df-1d398dea1390"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "0",
+        "speed": 5,
+        "__collapse": false
+      },
+      "id": "67ab194b-39ee-4a19-83c1-67c32e1f2c99"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "1",
+        "speed": 5,
+        "__collapse": false
+      },
+      "id": "c1b8bea7-5ebc-4ee5-be80-ad1cfb9acceb"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "__collapse": true
+      },
+      "id": "820233b0-b962-496b-9d78-68a1ac2f9aca"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "1",
+        "x": {
+          "type": "number",
+          "value": 27
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "__collapse": true
+      },
+      "id": "6da1de14-53ca-49ce-b9e5-328b208f4605"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "bd9e5e74-d6f3-4655-9229-6c06a166b695"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "d3a0e70b-0204-49d4-aa72-c5fc176e7ec3"
+    },
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 40
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "2a995bf0-edb5-4cc3-a6ba-e8fb5dc07066"
+    }
+  ]
+}

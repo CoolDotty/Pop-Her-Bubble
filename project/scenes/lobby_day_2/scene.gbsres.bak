@@ -1,0 +1,43 @@
+{
+  "_resourceType": "scene",
+  "id": "c4f28518-e000-46cd-b518-23c1cb4392ed",
+  "_index": 18,
+  "name": "Lobby Day 2",
+  "backgroundId": "bfae0400-7850-420e-969d-b270affe0038",
+  "tilesetId": "",
+  "width": 25,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-3"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "001c2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 848,
+  "y": 224,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4bedf9af-80d6-4d10-b2dc-3a426dd49930",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "5621d6d1-9b8e-4cae-a348-e593d45a3968"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

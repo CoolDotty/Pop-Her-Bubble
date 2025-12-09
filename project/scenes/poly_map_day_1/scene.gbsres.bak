@@ -1,0 +1,87 @@
+{
+  "_resourceType": "scene",
+  "id": "f6aa7f23-1f14-4712-9a88-84d8b95b11ca",
+  "_index": 9,
+  "name": "Poly Map Day 1",
+  "backgroundId": "cf4e1873-a221-42f1-8cc9-69ad1e01dd95",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 1240,
+  "y": 40,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "4ea5265a-5902-41d5-a878-981f345d2056"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "06c3aa23-b0f6-4f52-96f3-41208bbe119f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"Keeping all my\n friends happy\n is so hard\"",
+          "\"I should focus\n on having fun\"",
+          "\"As long as I...\"",
+          "\"Keep\"",
+          "\"The\"",
+          "\"Peace...\""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0082c119-faca-4848-b5ca-db5b66d63a4b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cb1185cb-2c8e-475b-bdbf-45f22d8b7b0d",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "1c88e7b4-0111-485d-ac12-0ba2e400f6ae"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff"
+}

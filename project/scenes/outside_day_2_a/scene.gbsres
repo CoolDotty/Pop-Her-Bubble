@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "7682e61e-9db5-4fff-95a5-68ae1b86c79f",
+  "_index": 10,
+  "name": "Outside Day 2 A",
+  "backgroundId": "77ca8f5e-42e2-4c1c-b59a-8a7725661e25",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00aa+0f4+0010+0f!002+0f!006+0fb+002+0f7+008c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 672,
+  "y": 224,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "5e829c18-e84d-4bdc-a61e-87a9353fe80d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "(Here we are)",
+          "(Nothing more punk\n than being broke\n on Friday night)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bd8bdc26-aabc-4950-a400-0f49b2c51c82"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71c8b341-a891-4e7d-bbb4-7a1aa9ab3919"
+}

@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "6519a040-cc20-4c9b-9547-ecb6ada865b5",
+  "_index": 17,
+  "name": "Balcony Hall Day 2",
+  "backgroundId": "5fbf929a-f025-4abd-8a1d-8fb42e59338e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00c9+0f13+0029+0f13+0050+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 2064,
+  "y": 224,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71c8b341-a891-4e7d-bbb4-7a1aa9ab3919"
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "ce2ee235-99cf-41df-8af7-820e8722d1e5",
+  "_index": 38,
+  "name": "Black Ending B",
+  "backgroundId": "5fc820b5-da5d-4b50-8722-82a1c34d3b92",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 472,
+  "y": 792,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "947b69eb-fc4c-46a1-929e-70c387e1b515",
+  "name": "hallway with poster and bookshelf",
+  "symbol": "bg_hallway_with_poster_and_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "hallway with poster and bookshelf.png",
+  "tileColors": "",
+  "autoColor": false
+}

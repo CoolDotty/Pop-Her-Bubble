@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "b658ee2e-a00b-431c-ad3a-c9a5d0a55e87",
+  "_index": 3,
+  "name": "Hallway Day 1",
+  "backgroundId": "947b69eb-fc4c-46a1-929e-70c387e1b515",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 856,
+  "y": 40,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "dd2695e9-6412-4066-bf5c-8c4a600c3f41"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "(The only venue in\n town)",
+          "(For outcats like\n me)",
+          "(The name is)",
+          "\"Blue Drive\n  Arts Club\""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fc2f5cd9-91aa-4fb6-9419-14bf2da04219"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "79c9cec6-c0b9-4261-97a1-cfad7a53a165",
+  "autoFadeEventCollapse": false
+}

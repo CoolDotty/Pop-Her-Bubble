@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "39ae4176-dd31-41d1-b5fe-07d518706da8",
+  "name": "Hide Actor Left",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "moveType": "diagonal",
+              "useCollisions": false
+            },
+            "id": "0544f135-3aef-4c94-8de1-b1888995105c"
+          }
+        ]
+      },
+      "id": "77b2b65d-8b29-4542-ae3f-40063c76acb6"
+    }
+  ]
+}

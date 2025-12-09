@@ -1,0 +1,45 @@
+{
+  "_resourceType": "trigger",
+  "id": "e9858eaa-ee54-4875-8032-5b287272f317",
+  "name": "",
+  "prefabId": "",
+  "x": 7,
+  "y": 6,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"Crows nest\"",
+          "A night of\ndisorder\nand chaos!",
+          "Pay What you can!\n  **All Ages!**",
+          "(My ticket is on\n the shelf)"
+        ],
+        "__section": "presets",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd"
+      },
+      "id": "9dea6ecb-7655-47e7-a159-71433627975e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

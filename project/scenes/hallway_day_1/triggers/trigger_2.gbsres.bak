@@ -1,0 +1,59 @@
+{
+  "_resourceType": "trigger",
+  "id": "c6e8758d-93fc-434c-88a6-3f7da487176a",
+  "name": "",
+  "prefabId": "",
+  "x": 13,
+  "y": 6,
+  "symbol": "trigger_4",
+  "prefabScriptOverrides": {},
+  "width": 5,
+  "height": 8,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "6a23e05f-0157-43a2-b6fe-4703572059fd",
+        "text": [
+          "\"Can't forgot...\""
+        ],
+        "__section": "presets",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "de855307-ac17-41e4-94ad-3dfb418c6140"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "47f14c4c-8017-4a2d-a7dd-6ba2c4f36b48",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "62c982dc-64d6-4d9e-b46f-7ecbc51d3149"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

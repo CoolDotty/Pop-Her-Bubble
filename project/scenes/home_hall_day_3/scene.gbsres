@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "94a8cbd5-fc52-4447-b81b-2224e6612116",
+  "_index": 22,
+  "name": "Home hall Day 3",
+  "backgroundId": "0ec47ae9-0b29-4481-8624-2024b7e3ad7e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_30",
+  "x": 672,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "e9c3a2b3-eed5-4b37-97bd-16c1879c1bca"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

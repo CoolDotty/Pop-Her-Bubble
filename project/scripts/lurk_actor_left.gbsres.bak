@@ -1,0 +1,45 @@
+{
+  "_resourceType": "script",
+  "id": "c6aff870-29ce-4fbf-9c3a-afae94e0569b",
+  "name": "Lurk Actor Left",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor Left"
+    }
+  },
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "moveType": "diagonal",
+              "useCollisions": false
+            },
+            "id": "af1f304a-5ebf-42db-b635-81c6eb67b2de"
+          }
+        ]
+      },
+      "id": "29f6135e-2169-465e-a6c1-724268b64099"
+    }
+  ]
+}

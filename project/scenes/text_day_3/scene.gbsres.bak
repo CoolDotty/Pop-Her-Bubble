@@ -1,0 +1,50 @@
+{
+  "_resourceType": "scene",
+  "id": "10be1427-4298-480d-bff5-436b8a2d2b78",
+  "_index": 9,
+  "name": "Text Day 3",
+  "backgroundId": "43e29b12-e99e-4c5f-a21c-946de9182093",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 480,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30
+      },
+      "id": "6ad91a65-b06c-4250-a199-a544204b6e5b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7682e61e-9db5-4fff-95a5-68ae1b86c79f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "32b8ed1e-4449-4d43-947e-9859a14ffd39"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

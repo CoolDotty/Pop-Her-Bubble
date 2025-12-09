@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bd36942f-acb2-404f-9a36-f4f6df2f6a87",
+  "name": "Opening quote",
+  "symbol": "bg_opening_quote",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Opening quote.png",
+  "tileColors": ""
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "94a8cbd5-fc52-4447-b81b-2224e6612116",
+  "_index": 22,
+  "name": "Hallway Day 3",
+  "backgroundId": "0ec47ae9-0b29-4481-8624-2024b7e3ad7e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_30",
+  "x": 672,
+  "y": 408,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

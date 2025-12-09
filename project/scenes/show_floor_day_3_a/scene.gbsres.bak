@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "3f363ff6-e442-4807-84f7-dd0163607797",
+  "_index": 34,
+  "name": "Show Floor Day 3 A",
+  "backgroundId": "72f7bccf-fbdd-466e-8685-1acc109864fd",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2+0011+0f!00!0f!0011+0f!00!0f2+00f+0f2+003+0f!00d+0f2+004+0f!00c+0f2+005+0f!00c+0f!0067+0f!0012+0f!0078+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_35",
+  "x": 1704,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "e38b50d1-7158-4955-9da1-97900b4e338e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71c8b341-a891-4e7d-bbb4-7a1aa9ab3919"
+}

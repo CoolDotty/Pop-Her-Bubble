@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d0990434-db4d-4e28-8976-d078a94faa70",
+  "name": "bedroom",
+  "symbol": "bg_bedroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bedroom.png",
+  "tileColors": "",
+  "autoColor": false
+}

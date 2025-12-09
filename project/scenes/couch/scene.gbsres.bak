@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "d6d0830b-90c2-490b-bd1c-7f36b7a28d56",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Couch",
+  "symbol": "scene_1",
+  "labelColor": "",
+  "x": 544,
+  "y": 344,
+  "width": 25,
+  "height": 18,
+  "backgroundId": "d63f0d77-9180-4d0e-8903-3692147f54ca",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [
+    ""
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "ac971c13-1453-48cf-9f5d-600f5b21e6ff",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}
