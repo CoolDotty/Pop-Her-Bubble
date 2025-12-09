@@ -1,4 +1,4 @@
-# Gb-Studio Sample Project with build on push 
+# Pop Her Bubble
 
 A game about holding onto friends in a lonely city.
 
